@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="four">4dp</dimen>
+    <dimen name="six">6dp</dimen>
+    <dimen name="ten">10dp</dimen>
+    <dimen name="fourteenText">14sp</dimen>
+    <dimen name="fifteen">15dp</dimen>
+    <dimen name="twentyoneText">21sp</dimen>
+    <dimen name="fifty">50dp</dimen>
+    <dimen name="eightyFive">85dp</dimen>
+
+</resources>

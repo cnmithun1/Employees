@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Employees</string>
+    <string name="employeeList">Employees List</string>
+    <string name="id">Id</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="@dimen/eightyFive"
+            android:layout_height="wrap_content"
+            android:text="@string/id"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fourteenText"
+            android:textStyle="bold"
+            android:id="@+id/eId"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/employeeId"
+            android:textSize="@dimen/fourteenText"
+            android:layout_toRightOf="@+id/eId" />
+
+        <TextView
+            android:layout_width="@dimen/eightyFive"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:layout_below="@+id/eId"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fourteenText"
+            android:textStyle="bold"
+            android:id="@+id/eName"
+            android:layout_marginTop="@dimen/fifteen"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/employeeName"
+            android:textSize="@dimen/fourteenText"
+            android:layout_toRightOf="@+id/eName"
+            android:layout_marginTop="@dimen/fifteen"
+            android:layout_below="@+id/eId"/>
+
+
+        <TextView
+            android:layout_width="@dimen/eightyFive"
+            android:layout_height="wrap_content"
+            android:text="@string/age"
+            android:layout_below="@+id/eName"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fourteenText"
+            android:textStyle="bold"
+            android:id="@+id/eAge"
+            android:layout_marginTop="@dimen/fifteen"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/employeeAge"
+            android:textSize="@dimen/fourteenText"
+            android:layout_toRightOf="@+id/eAge"
+            android:layout_marginTop="@dimen/fifteen"
+            android:layout_below="@+id/employeeName"/>
+
+        <TextView
+            android:layout_width="@dimen/eightyFive"
+            android:layout_height="wrap_content"
+            android:text="@string/age"
+            android:layout_below="@+id/eAge"
+            android:textColor="@color/black"
+            android:textSize="@dimen/fourteenText"
+            android:textStyle="bold"
+            android:id="@+id/eSalary"
+            android:layout_marginTop="@dimen/fifteen"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/employeeSalary"
+            android:textSize="@dimen/fourteenText"
+            android:layout_toRightOf="@+id/eSalary"
+            android:layout_marginTop="@dimen/fifteen"
+            android:layout_below="@+id/employeeAge"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/countDowntimer"
+        android:layout_margin="@dimen/ten"
+        android:textSize="@dimen/twentyoneText"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+
+
+</RelativeLayout>

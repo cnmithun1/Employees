@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--Header Layout starts-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fifty"
+        android:id="@+id/headerLayout"
+        android:background="@color/blue"
+        android:foreground="?attr/selectableItemBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/twentyoneText"
+            android:textColor="@color/white"
+            android:text="@string/employeeList"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <!--Header Layout ends-->
+
+    <!--Employee list display recyclerview layout start-->
+
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/groupListLayout"
+        android:layout_below="@+id/headerLayout">-->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/employeesRecyclerView"
+            android:layout_below="@+id/headerLayout">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    <!--</RelativeLayout>-->
+
+    <!--Employee list display recyclerview layout ends-->
+
+
+
+
+</RelativeLayout>
